@@ -1,0 +1,13 @@
+{
+  "name": "cvinterface",
+  "version": "1.0.0",
+  "description": "The web server interface for a senior design project",
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "private": true,
+  "workspaces": ["frontend"],
+  "scripts": {
+    "frontend:dev": "npm run dev -w frontend"
+  }
+}
